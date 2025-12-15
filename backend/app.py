@@ -3,6 +3,8 @@ from flask_cors import CORS
 from qa_engine import QAEngine
 from pathlib import Path
 import logging
+from duckduckgo_search import DDGS  
+
 
 
 logging.basicConfig(
@@ -20,6 +22,21 @@ csv_path = base_dir / "data" / "knowledge_base.csv"
 
 engine = QAEngine()
 engine.load_knowledge_base(csv_path)
+
+def search_web(query):
+    try:
+        logger.info(f"Searching web for: {query}")
+        results = DDGS().text(query, max_results=1)
+        if results:
+            return {
+                "answer": results[0]['body'],
+                "source": results[0]['href'],
+                "title": results[0]['title']
+            }
+    except Exception as e:
+        logger.error(f"Web search error: {e}")
+    return None
+
 
 @app.route('/')
 def home():
@@ -56,11 +73,29 @@ def ask_question():
             }), 400
         
        
+        
+
         logger.info(f"Received question: {question[:50]}...")
         result = engine.find_answer(question)
         logger.info(f"Answer confidence: {result['confidence']:.2f}")
+
+        
+        if result['confidence'] < 0.6:  
+            logger.info("Low confidence, trying web search...")
+            web_result = search_web(question)
+            
+            if web_result: 
+                return jsonify({
+                    "question": question,
+                    "answer": web_result['answer'],
+                    "confidence": 1.0,
+                    "source": "web",
+                    "url": web_result['source']
+                }), 200
+       
         
         return jsonify(result), 200
+
         
     except Exception as e:
         logger.error(f"Error processing question: {str(e)}")
