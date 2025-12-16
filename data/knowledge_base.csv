@@ -1,31 +1,21 @@
-question,answer,language
-ما هي لغة Python,Python لغة برمجة سهلة التعلم ومستخدمة في الذكاء الاصطناعي وتحليل البيانات,ar
-كيف أتعلم البرمجة,ابدأ بتعلم الأساسيات عبر دورات مجانية ثم اعمل على مشاريع صغيرة لتطبيق ما تعلمته,ar
-ما هو الذكاء الاصطناعي,مجال في علوم الحاسوب يهدف لبناء أنظمة قادرة على محاكاة الذكاء البشري مثل التعلم والتفكير,ar
-كيف أحصل على وظيفة في البرمجة,ابنِ portfolio قوي على GitHub واعمل مشاريع حقيقية وتعلم التقنيات المطلوبة في سوق العمل,ar
-ما أفضل لغة برمجة للمبتدئين,Python هي الأفضل للمبتدئين لأنها سهلة القراءة والكتابة ولها مجتمع كبير,ar
-What is Python,Python is an easy-to-learn programming language used in artificial intelligence and data analysis,en
-How do I learn programming,Start by learning the basics through free courses then work on small projects to apply what you learned,en
-What is artificial intelligence,A field in computer science that aims to build systems capable of mimicking human intelligence such as learning and reasoning,en
-How do I get a programming job,Build a strong portfolio on GitHub work on real projects and learn the technologies required in the job market,en
-What is the best programming language for beginners,Python is the best for beginners because it is easy to read and write and has a large community,en
-What is machine learning,Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed
-How does AI work,AI works by processing large amounts of data through algorithms and neural networks to identify patterns and make decisions
-What is data science,Data science combines statistics programming and domain expertise to extract insights from structured and unstructured data
-What is neural network,A neural network is a computing system inspired by biological neural networks that learns to perform tasks by analyzing examples
-What is deep learning,Deep learning uses artificial neural networks with multiple layers to progressively extract higher-level features from raw input
-What is database,A database is an organized collection of structured information stored electronically in a computer system
-What is SQL,SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases
-What is API,An API (Application Programming Interface) is a set of protocols that allows different software applications to communicate with each other
-What is REST API,REST API is an architectural style for designing networked applications using HTTP requests to access and manipulate data
-What is JSON,JSON (JavaScript Object Notation) is a lightweight data format used for storing and exchanging data between systems
-What is Git,Git is a distributed version control system that tracks changes in source code during software development
-What is GitHub,GitHub is a web-based platform that hosts Git repositories and provides collaboration tools for developers
-What is HTML,HTML (HyperText Markup Language) is the standard markup language used to create web pages and structure content
-What is CSS,CSS (Cascading Style Sheets) is a language used to describe the presentation and styling of HTML documents
-What is JavaScript,JavaScript is a programming language that enables interactive web pages and is essential for web development
-What is Flask,Flask is a lightweight Python web framework used to build web applications and APIs quickly
-What is debugging,Debugging is the process of finding and fixing errors or bugs in computer programs
-What is algorithm,An algorithm is a step-by-step procedure or formula for solving a problem or completing a task
-What is variable,A variable is a named storage location in a program that holds a value which can change during execution
-What is function,A function is a reusable block of code that performs a specific task and can be called multiple times
+question,answer
+"What is Python?","Python is a high-level, interpreted programming language known for its easy readability and vast ecosystem of libraries for web development, data science, and AI."
+"Define a variable in Python.","A variable in Python is created when you assign a value to it, like `x = 5`. It does not require explicit declaration of the type."
+"What is a list in Python?","A list is a mutable, ordered collection of items in Python, defined using square brackets, e.g., `my_list = [1, 2, 3]`."
+"What is a dictionary in Python?","A dictionary is an unordered collection of key-value pairs, defined using curly braces, e.g., `my_dict = {'key': 'value'}`."
+"Explain the difference between a list and a tuple.","Lists are mutable (can be changed), while tuples are immutable (cannot be changed after creation). Lists use `[]`, tuples use `()`."
+"What is a function in Python?","A function is a block of reusable code that performs a specific task. It is defined using the `def` keyword."
+"What is a loop?","A loop is a control structure that repeats a block of code as long as a specified condition is true (while loop) or for each item in a sequence (for loop)."
+"What is Object-Oriented Programming (OOP)?","OOP is a programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods). Key concepts include classes, inheritance, and encapsulation."
+"What is inheritance in OOP?","Inheritance allows a class (child) to derive attributes and methods from another class (parent), promoting code reuse."
+"What is the derivative of x^2?","The derivative of x^2 with respect to x is 2x."
+"What is the derivative of sin(x)?","The derivative of sin(x) is cos(x)."
+"What is a limit in calculus?","A limit describes the value that a function approaches as the input approaches some value. It is fundamental to defining continuity, derivatives, and integrals."
+"What is an integral?","An integral assigns numbers to functions in a way that describes displacement, area, volume, and other concepts that arise by combining infinitesimal data."
+"What is the chain rule?","The chain rule is a formula for computing the derivative of the composition of two or more functions: d/dx[f(g(x))] = f'(g(x)) * g'(x)."
+"What is a Git commit?","A commit in Git records changes to the repository. It saves a snapshot of the project's current state with a message describing the changes."
+"What is Flask?","Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications."
+"What is an API?","API stands for Application Programming Interface. It allows different software applications to communicate with each other."
+"What is JSON?","JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate."
+"What is the difference between GET and POST?","GET requests data from a specified resource, while POST submits data to be processed to a specified resource."
+"Who is the creator of Python?","Guido van Rossum created Python, and it was first released in 1991."

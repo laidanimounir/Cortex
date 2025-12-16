@@ -40,13 +40,15 @@ class QAEngine:
         if confidence < min_confidence:
             return {
                 "question": None,
-                "answer": "Sorry, I don't have information about this topic ",
-                "confidence": float(confidence)
+                "answer": None,  
+                "confidence": float(confidence),
+                "source": "none"
             }
         return {
               "question": self.questions[best_match_index],
               "answer": self.answers[best_match_index],
-              "confidence": float(confidence)
+              "confidence": float(confidence),
+              "source": "local"
            }
 
 

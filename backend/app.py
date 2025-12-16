@@ -3,9 +3,7 @@ from flask_cors import CORS
 from qa_engine import QAEngine
 from pathlib import Path
 import logging
-from duckduckgo_search import DDGS  
-
-
+from duckduckgo_search import DDGS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -15,7 +13,6 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 CORS(app)
-
 
 base_dir = Path(__file__).resolve().parent.parent
 csv_path = base_dir / "data" / "knowledge_base.csv"
@@ -37,7 +34,6 @@ def search_web(query):
         logger.error(f"Web search error: {e}")
     return None
 
-
 @app.route('/')
 def home():
     return jsonify({
@@ -50,41 +46,35 @@ def home():
 def ask_question():
     try:
         data = request.get_json()
-        
-     
+
         if not data or 'question' not in data:
             return jsonify({
                 "error": "Question is required",
                 "example": {"question": "What is Python?"}
             }), 400
-        
+
         question = data['question'].strip()
-        
-    
+
         if not question:
             return jsonify({
                 "error": "Question cannot be empty"
             }), 400
-        
-       
+
         if len(question) > 500:
             return jsonify({
                 "error": "Question too long (max 500 characters)"
             }), 400
-        
-       
-        
 
         logger.info(f"Received question: {question[:50]}...")
-        result = engine.find_answer(question)
-        logger.info(f"Answer confidence: {result['confidence']:.2f}")
 
-        
-        if result['confidence'] < 0.6:  
+        result = engine.find_answer(question)
+        logger.info(f"Answer confidence (local): {result['confidence']:.2f}")
+
+        if result['confidence'] < 0.6:
             logger.info("Low confidence, trying web search...")
             web_result = search_web(question)
-            
-            if web_result: 
+
+            if web_result:
                 return jsonify({
                     "question": question,
                     "answer": web_result['answer'],
@@ -92,11 +82,14 @@ def ask_question():
                     "source": "web",
                     "url": web_result['source']
                 }), 200
-       
-        
-        return jsonify(result), 200
 
-        
+        return jsonify({
+            "question": result.get("question"),
+            "answer": result.get("answer"),
+            "confidence": result.get("confidence"),
+            "source": "local"
+        }), 200
+
     except Exception as e:
         logger.error(f"Error processing question: {str(e)}")
         return jsonify({
