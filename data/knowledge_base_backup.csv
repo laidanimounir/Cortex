@@ -1,0 +1,46 @@
+question,answer
+What is Python?,"Python is a high-level, interpreted programming language known for its easy readability and vast ecosystem of libraries for web development, data science, and AI."
+Define a variable in Python.,"A variable in Python is created when you assign a value to it, like `x = 5`. It does not require explicit declaration of the type."
+What is a list in Python?,"A list is a mutable, ordered collection of items in Python, defined using square brackets, e.g., `my_list = [1, 2, 3]`."
+What is a dictionary in Python?,"A dictionary is an unordered collection of key-value pairs, defined using curly braces, e.g., `my_dict = {'key': 'value'}`."
+Explain the difference between a list and a tuple.,"Lists are mutable (can be changed), while tuples are immutable (cannot be changed after creation). Lists use `[]`, tuples use `()`."
+What is a function in Python?,A function is a block of reusable code that performs a specific task. It is defined using the `def` keyword.
+What is a loop?,A loop is a control structure that repeats a block of code as long as a specified condition is true (while loop) or for each item in a sequence (for loop).
+What is Object-Oriented Programming (OOP)?,"OOP is a programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods). Key concepts include classes, inheritance, and encapsulation."
+What is inheritance in OOP?,"Inheritance allows a class (child) to derive attributes and methods from another class (parent), promoting code reuse."
+What is the derivative of x^2?,The derivative of x^2 with respect to x is 2x.
+What is the derivative of sin(x)?,The derivative of sin(x) is cos(x).
+What is a limit in calculus?,"A limit describes the value that a function approaches as the input approaches some value. It is fundamental to defining continuity, derivatives, and integrals."
+What is an integral?,"An integral assigns numbers to functions in a way that describes displacement, area, volume, and other concepts that arise by combining infinitesimal data."
+What is the chain rule?,The chain rule is a formula for computing the derivative of the composition of two or more functions: d/dx[f(g(x))] = f'(g(x)) * g'(x).
+What is a Git commit?,A commit in Git records changes to the repository. It saves a snapshot of the project's current state with a message describing the changes.
+What is Flask?,"Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications."
+What is an API?,API stands for Application Programming Interface. It allows different software applications to communicate with each other.
+What is JSON?,JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.
+What is the difference between GET and POST?,"GET requests data from a specified resource, while POST submits data to be processed to a specified resource."
+Who is the creator of Python?,"Guido van Rossum created Python, and it was first released in 1991."
+What is an Ausbildung in Germany?,An Ausbildung is a dual vocational training program in Germany that combines practical work in a company with theoretical lessons at a vocational school.
+What is a Fachinformatiker?,A Fachinformatiker is an IT specialist in Germany. Common specializations include application development and system integration.
+How long does an Ausbildung usually last?,"Most Ausbildung programs in Germany last between 2 and 3.5 years, depending on the profession and your prior education."
+How to prepare for a technical interview?,"Review the basics of programming, data structures, and databases. Practice explaining your projects and solving simple problems out loud."
+How to prepare for an Ausbildung interview?,"Research the company, understand the Ausbildung profession, prepare answers about your strengths, weaknesses, and motivation, and think of questions to ask the interviewer."
+Was ist eine Ausbildung?,"Eine Ausbildung ist eine berufliche Ausbildung in Deutschland, bei der du in einem Betrieb arbeitest und gleichzeitig die Berufsschule besuchst."
+Was macht ein Fachinformatiker Anwendungsentwicklung?,"Ein Fachinformatiker für Anwendungsentwicklung entwickelt und testet Software, arbeitet mit Programmiersprachen und passt Anwendungen an die Bedürfnisse der Kunden an."
+Wie lange dauert die Ausbildung zum Fachinformatiker?,Die Ausbildung zum Fachinformatiker dauert in der Regel drei Jahre. Mit guter Leistung kann sie manchmal verkürzt werden.
+Wie bereite ich mich auf ein Vorstellungsgespräch vor?,"Informiere dich über die Firma, wiederhole die wichtigsten Fachkenntnisse und überlege dir Beispiele für deine Stärken, Erfahrungen und Motivation."
+Warum möchten Sie diese Ausbildung machen?,"Ich interessiere mich sehr für IT und löse gerne Probleme. Eine Ausbildung gibt mir die Möglichkeit, praktische Erfahrung zu sammeln und gleichzeitig theoretisches Wissen zu lernen."
+ما هو بايثون؟,بايثون لغة برمجة عالية المستوى، سهلة القراءة، وتُستخدم في تطوير الويب، تحليل البيانات، الذكاء الاصطناعي، وأتمتة المهام.
+كيف أبدأ تعلم بايثون؟,ابدأ بتثبيت بايثون، ثم تعلّم الأساسيات مثل المتغيرات، الحلقات والدوال، وطبّق ما تتعلمه في مشاريع بسيطة.
+ما هي الدالة في بايثون؟,الدالة هي كتلة من الكود القابل لإعادة الاستخدام تنفَّذ عند استدعائها، وتُعرّف بالكلمة المفتاحية def متبوعة باسم الدالة.
+ما هو Git؟,Git نظام إدارة نسخ يساعدك على تتبّع تغييرات الكود والعمل مع فريق على نفس المشروع بدون تضارب.
+ما هو Flask؟,Flask إطار عمل خفيف لبناء تطبيقات الويب بلغة بايثون، مناسب للمشاريع الصغيرة والمتوسطة وواجهات الـ API.
+ما هي الـ API؟,الـ API هي واجهة تسمح لتطبيقات وبرامج مختلفة بالتواصل وتبادل البيانات فيما بينها بطريقة منظَّمة.
+ما هي نقاط قوتك؟,من نقاط قوتي أنني ملتزم ومنظم وأتعلم بسرعة، وأحب حل المشكلات التقنية بطريقة هادئة ومنهجية.
+لماذا تريد هذه الـ Ausbildung؟,لأن مجال تقنية المعلومات يهمني منذ سنوات، وأرى أن Ausbildung تعطيني فرصة لاكتساب خبرة عملية حقيقية إلى جانب المعرفة النظرية.
+لماذا اخترت هذه الشركة؟,اخترت هذه الشركة لأنها معروفة بالتدريب الجيد للمتدربين، ولأن مشاريعها في مجال يناسب اهتماماتي التقنية وأهدافي المهنية.
+ما هي نقاط ضعفك؟,أحيانًا أركز كثيرًا على التفاصيل، لكني أعمل على إدارة وقتي بشكل أفضل حتى أوازن بين الدقة والسرعة.
+حدثني عن نفسك.,أنا شخص مهتم بالتقنية، أحب تعلم أشياء جديدة وتجربة أدوات وبرامج مختلفة، وأبحث عن فرصة Ausbildung لأطوّر نفسي مهنياً في مجال تكنولوجيا المعلومات.
+كيف تستعد لمقابلة عمل؟,أبحث عن معلومات عن الشركة، أراجع أساسيات المجال المطلوب، وأحضّر أمثلة من تجاربي السابقة لأشرح مهاراتي وثقتي بنفسي.
+ما هو هدفك بعد الانتهاء من الـ Ausbildung؟,هدفي أن أطور مهاراتي أكثر، وأستمر في العمل في مجال تكنولوجيا المعلومات، وأن أتحمل مسؤوليات أكبر في المشاريع مع الوقت.
+مرحبا,مرحبا! يمكنك سؤالي عن البرمجة، الـ Ausbildung، المقابلات أو أي موضوع تود التدرب عليه.
+من أنت؟,أنا نظام سؤال وجواب بسيط مبني على قاعدة معرفة يمكن تطويرها تدريجياً لمساعدتك في البرمجة والاستعداد للـ Ausbildung.

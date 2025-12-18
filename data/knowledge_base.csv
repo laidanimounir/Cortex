@@ -1,46 +1,105 @@
 question,answer
-"What is Python?","Python is a high-level, interpreted programming language known for its easy readability and vast ecosystem of libraries for web development, data science, and AI."
-"Define a variable in Python.","A variable in Python is created when you assign a value to it, like `x = 5`. It does not require explicit declaration of the type."
-"What is a list in Python?","A list is a mutable, ordered collection of items in Python, defined using square brackets, e.g., `my_list = [1, 2, 3]`."
-"What is a dictionary in Python?","A dictionary is an unordered collection of key-value pairs, defined using curly braces, e.g., `my_dict = {'key': 'value'}`."
-"Explain the difference between a list and a tuple.","Lists are mutable (can be changed), while tuples are immutable (cannot be changed after creation). Lists use `[]`, tuples use `()`."
-"What is a function in Python?","A function is a block of reusable code that performs a specific task. It is defined using the `def` keyword."
-"What is a loop?","A loop is a control structure that repeats a block of code as long as a specified condition is true (while loop) or for each item in a sequence (for loop)."
-"What is Object-Oriented Programming (OOP)?","OOP is a programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods). Key concepts include classes, inheritance, and encapsulation."
-"What is inheritance in OOP?","Inheritance allows a class (child) to derive attributes and methods from another class (parent), promoting code reuse."
-"What is the derivative of x^2?","The derivative of x^2 with respect to x is 2x."
-"What is the derivative of sin(x)?","The derivative of sin(x) is cos(x)."
-"What is a limit in calculus?","A limit describes the value that a function approaches as the input approaches some value. It is fundamental to defining continuity, derivatives, and integrals."
-"What is an integral?","An integral assigns numbers to functions in a way that describes displacement, area, volume, and other concepts that arise by combining infinitesimal data."
-"What is the chain rule?","The chain rule is a formula for computing the derivative of the composition of two or more functions: d/dx[f(g(x))] = f'(g(x)) * g'(x)."
-"What is a Git commit?","A commit in Git records changes to the repository. It saves a snapshot of the project's current state with a message describing the changes."
-"What is Flask?","Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications."
-"What is an API?","API stands for Application Programming Interface. It allows different software applications to communicate with each other."
-"What is JSON?","JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate."
-"What is the difference between GET and POST?","GET requests data from a specified resource, while POST submits data to be processed to a specified resource."
-"Who is the creator of Python?","Guido van Rossum created Python, and it was first released in 1991."
-"What is an Ausbildung in Germany?","An Ausbildung is a dual vocational training program in Germany that combines practical work in a company with theoretical lessons at a vocational school."
-"What is a Fachinformatiker?","A Fachinformatiker is an IT specialist in Germany. Common specializations include application development and system integration."
-"How long does an Ausbildung usually last?","Most Ausbildung programs in Germany last between 2 and 3.5 years, depending on the profession and your prior education."
-"How to prepare for a technical interview?","Review the basics of programming, data structures, and databases. Practice explaining your projects and solving simple problems out loud."
-"How to prepare for an Ausbildung interview?","Research the company, understand the Ausbildung profession, prepare answers about your strengths, weaknesses, and motivation, and think of questions to ask the interviewer."
-"Was ist eine Ausbildung?","Eine Ausbildung ist eine berufliche Ausbildung in Deutschland, bei der du in einem Betrieb arbeitest und gleichzeitig die Berufsschule besuchst."
-"Was macht ein Fachinformatiker Anwendungsentwicklung?","Ein Fachinformatiker für Anwendungsentwicklung entwickelt und testet Software, arbeitet mit Programmiersprachen und passt Anwendungen an die Bedürfnisse der Kunden an."
-"Wie lange dauert die Ausbildung zum Fachinformatiker?","Die Ausbildung zum Fachinformatiker dauert in der Regel drei Jahre. Mit guter Leistung kann sie manchmal verkürzt werden."
-"Wie bereite ich mich auf ein Vorstellungsgespräch vor?","Informiere dich über die Firma, wiederhole die wichtigsten Fachkenntnisse und überlege dir Beispiele für deine Stärken, Erfahrungen und Motivation."
-"Warum möchten Sie diese Ausbildung machen?","Ich interessiere mich sehr für IT und löse gerne Probleme. Eine Ausbildung gibt mir die Möglichkeit, praktische Erfahrung zu sammeln und gleichzeitig theoretisches Wissen zu lernen."
-"ما هو بايثون؟","بايثون لغة برمجة عالية المستوى، سهلة القراءة، وتُستخدم في تطوير الويب، تحليل البيانات، الذكاء الاصطناعي، وأتمتة المهام."
-"كيف أبدأ تعلم بايثون؟","ابدأ بتثبيت بايثون، ثم تعلّم الأساسيات مثل المتغيرات، الحلقات والدوال، وطبّق ما تتعلمه في مشاريع بسيطة."
-"ما هي الدالة في بايثون؟","الدالة هي كتلة من الكود القابل لإعادة الاستخدام تنفَّذ عند استدعائها، وتُعرّف بالكلمة المفتاحية def متبوعة باسم الدالة."
-"ما هو Git؟","Git نظام إدارة نسخ يساعدك على تتبّع تغييرات الكود والعمل مع فريق على نفس المشروع بدون تضارب."
-"ما هو Flask؟","Flask إطار عمل خفيف لبناء تطبيقات الويب بلغة بايثون، مناسب للمشاريع الصغيرة والمتوسطة وواجهات الـ API."
-"ما هي الـ API؟","الـ API هي واجهة تسمح لتطبيقات وبرامج مختلفة بالتواصل وتبادل البيانات فيما بينها بطريقة منظَّمة."
-"ما هي نقاط قوتك؟","من نقاط قوتي أنني ملتزم ومنظم وأتعلم بسرعة، وأحب حل المشكلات التقنية بطريقة هادئة ومنهجية."
-"لماذا تريد هذه الـ Ausbildung؟","لأن مجال تقنية المعلومات يهمني منذ سنوات، وأرى أن Ausbildung تعطيني فرصة لاكتساب خبرة عملية حقيقية إلى جانب المعرفة النظرية."
-"لماذا اخترت هذه الشركة؟","اخترت هذه الشركة لأنها معروفة بالتدريب الجيد للمتدربين، ولأن مشاريعها في مجال يناسب اهتماماتي التقنية وأهدافي المهنية."
-"ما هي نقاط ضعفك؟","أحيانًا أركز كثيرًا على التفاصيل، لكني أعمل على إدارة وقتي بشكل أفضل حتى أوازن بين الدقة والسرعة."
-"حدثني عن نفسك.","أنا شخص مهتم بالتقنية، أحب تعلم أشياء جديدة وتجربة أدوات وبرامج مختلفة، وأبحث عن فرصة Ausbildung لأطوّر نفسي مهنياً في مجال تكنولوجيا المعلومات."
-"كيف تستعد لمقابلة عمل؟","أبحث عن معلومات عن الشركة، أراجع أساسيات المجال المطلوب، وأحضّر أمثلة من تجاربي السابقة لأشرح مهاراتي وثقتي بنفسي."
-"ما هو هدفك بعد الانتهاء من الـ Ausbildung؟","هدفي أن أطور مهاراتي أكثر، وأستمر في العمل في مجال تكنولوجيا المعلومات، وأن أتحمل مسؤوليات أكبر في المشاريع مع الوقت."
-"مرحبا","مرحبا! يمكنك سؤالي عن البرمجة، الـ Ausbildung، المقابلات أو أي موضوع تود التدرب عليه."
-"من أنت؟","أنا نظام سؤال وجواب بسيط مبني على قاعدة معرفة يمكن تطويرها تدريجياً لمساعدتك في البرمجة والاستعداد للـ Ausbildung."
+What is Python?,"Python is a high-level, interpreted programming language known for its easy readability and vast ecosystem of libraries for web development, data science, and AI."
+Define a variable in Python.,"A variable in Python is created when you assign a value to it, like `x = 5`. It does not require explicit declaration of the type."
+What is a list in Python?,"A list is a mutable, ordered collection of items in Python, defined using square brackets, e.g., `my_list = [1, 2, 3]`."
+What is a dictionary in Python?,"A dictionary is an unordered collection of key-value pairs, defined using curly braces, e.g., `my_dict = {'key': 'value'}`."
+Explain the difference between a list and a tuple.,"Lists are mutable (can be changed), while tuples are immutable (cannot be changed after creation). Lists use `[]`, tuples use `()`."
+What is a function in Python?,A function is a block of reusable code that performs a specific task. It is defined using the `def` keyword.
+What is a loop?,A loop is a control structure that repeats a block of code as long as a specified condition is true (while loop) or for each item in a sequence (for loop).
+What is Object-Oriented Programming (OOP)?,"OOP is a programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods). Key concepts include classes, inheritance, and encapsulation."
+What is inheritance in OOP?,"Inheritance allows a class (child) to derive attributes and methods from another class (parent), promoting code reuse."
+What is the derivative of x^2?,The derivative of x^2 with respect to x is 2x.
+What is the derivative of sin(x)?,The derivative of sin(x) is cos(x).
+What is a limit in calculus?,"A limit describes the value that a function approaches as the input approaches some value. It is fundamental to defining continuity, derivatives, and integrals."
+What is an integral?,"An integral assigns numbers to functions in a way that describes displacement, area, volume, and other concepts that arise by combining infinitesimal data."
+What is the chain rule?,The chain rule is a formula for computing the derivative of the composition of two or more functions: d/dx[f(g(x))] = f'(g(x)) * g'(x).
+What is a Git commit?,A commit in Git records changes to the repository. It saves a snapshot of the project's current state with a message describing the changes.
+What is Flask?,"Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications."
+What is an API?,API stands for Application Programming Interface. It allows different software applications to communicate with each other.
+What is JSON?,JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.
+What is the difference between GET and POST?,"GET requests data from a specified resource, while POST submits data to be processed to a specified resource."
+Who is the creator of Python?,"Guido van Rossum created Python, and it was first released in 1991."
+What is an Ausbildung in Germany?,An Ausbildung is a dual vocational training program in Germany that combines practical work in a company with theoretical lessons at a vocational school.
+What is a Fachinformatiker?,A Fachinformatiker is an IT specialist in Germany. Common specializations include application development and system integration.
+How long does an Ausbildung usually last?,"Most Ausbildung programs in Germany last between 2 and 3.5 years, depending on the profession and your prior education."
+How to prepare for a technical interview?,"Review the basics of programming, data structures, and databases. Practice explaining your projects and solving simple problems out loud."
+How to prepare for an Ausbildung interview?,"Research the company, understand the Ausbildung profession, prepare answers about your strengths, weaknesses, and motivation, and think of questions to ask the interviewer."
+Was ist eine Ausbildung?,"Eine Ausbildung ist eine berufliche Ausbildung in Deutschland, bei der du in einem Betrieb arbeitest und gleichzeitig die Berufsschule besuchst."
+Was macht ein Fachinformatiker Anwendungsentwicklung?,"Ein Fachinformatiker für Anwendungsentwicklung entwickelt und testet Software, arbeitet mit Programmiersprachen und passt Anwendungen an die Bedürfnisse der Kunden an."
+Wie lange dauert die Ausbildung zum Fachinformatiker?,Die Ausbildung zum Fachinformatiker dauert in der Regel drei Jahre. Mit guter Leistung kann sie manchmal verkürzt werden.
+Wie bereite ich mich auf ein Vorstellungsgespräch vor?,"Informiere dich über die Firma, wiederhole die wichtigsten Fachkenntnisse und überlege dir Beispiele für deine Stärken, Erfahrungen und Motivation."
+Warum möchten Sie diese Ausbildung machen?,"Ich interessiere mich sehr für IT und löse gerne Probleme. Eine Ausbildung gibt mir die Möglichkeit, praktische Erfahrung zu sammeln und gleichzeitig theoretisches Wissen zu lernen."
+ما هو بايثون؟,بايثون لغة برمجة عالية المستوى، سهلة القراءة، وتُستخدم في تطوير الويب، تحليل البيانات، الذكاء الاصطناعي، وأتمتة المهام.
+كيف أبدأ تعلم بايثون؟,ابدأ بتثبيت بايثون، ثم تعلّم الأساسيات مثل المتغيرات، الحلقات والدوال، وطبّق ما تتعلمه في مشاريع بسيطة.
+ما هي الدالة في بايثون؟,الدالة هي كتلة من الكود القابل لإعادة الاستخدام تنفَّذ عند استدعائها، وتُعرّف بالكلمة المفتاحية def متبوعة باسم الدالة.
+ما هو Git؟,Git نظام إدارة نسخ يساعدك على تتبّع تغييرات الكود والعمل مع فريق على نفس المشروع بدون تضارب.
+ما هو Flask؟,Flask إطار عمل خفيف لبناء تطبيقات الويب بلغة بايثون، مناسب للمشاريع الصغيرة والمتوسطة وواجهات الـ API.
+ما هي الـ API؟,الـ API هي واجهة تسمح لتطبيقات وبرامج مختلفة بالتواصل وتبادل البيانات فيما بينها بطريقة منظَّمة.
+ما هي نقاط قوتك؟,من نقاط قوتي أنني ملتزم ومنظم وأتعلم بسرعة، وأحب حل المشكلات التقنية بطريقة هادئة ومنهجية.
+لماذا تريد هذه الـ Ausbildung؟,لأن مجال تقنية المعلومات يهمني منذ سنوات، وأرى أن Ausbildung تعطيني فرصة لاكتساب خبرة عملية حقيقية إلى جانب المعرفة النظرية.
+لماذا اخترت هذه الشركة؟,اخترت هذه الشركة لأنها معروفة بالتدريب الجيد للمتدربين، ولأن مشاريعها في مجال يناسب اهتماماتي التقنية وأهدافي المهنية.
+ما هي نقاط ضعفك؟,أحيانًا أركز كثيرًا على التفاصيل، لكني أعمل على إدارة وقتي بشكل أفضل حتى أوازن بين الدقة والسرعة.
+حدثني عن نفسك.,أنا شخص مهتم بالتقنية، أحب تعلم أشياء جديدة وتجربة أدوات وبرامج مختلفة، وأبحث عن فرصة Ausbildung لأطوّر نفسي مهنياً في مجال تكنولوجيا المعلومات.
+كيف تستعد لمقابلة عمل؟,أبحث عن معلومات عن الشركة، أراجع أساسيات المجال المطلوب، وأحضّر أمثلة من تجاربي السابقة لأشرح مهاراتي وثقتي بنفسي.
+ما هو هدفك بعد الانتهاء من الـ Ausbildung؟,هدفي أن أطور مهاراتي أكثر، وأستمر في العمل في مجال تكنولوجيا المعلومات، وأن أتحمل مسؤوليات أكبر في المشاريع مع الوقت.
+مرحبا,مرحبا! يمكنك سؤالي عن البرمجة، الـ Ausbildung، المقابلات أو أي موضوع تود التدرب عليه.
+من أنت؟,أنا نظام سؤال وجواب بسيط مبني على قاعدة معرفة يمكن تطويرها تدريجياً لمساعدتك في البرمجة والاستعداد للـ Ausbildung.
+ما هو Python؟,Python لغة برمجة عالية المستوى، سهلة التعلم ومتعددة الاستخدامات. تُستخدم في تطوير الويب، تحليل البيانات، الذكاء الاصطناعي، والأتمتة. تتميز بقراءة الكود السهلة وبنيتها البسيطة.
+ما الفرق بين list و tuple؟,القائمة list قابلة للتعديل بينما tuple غير قابلة للتعديل بعد إنشائها. القوائم تستخدم أقواس مربعة [] بينما tuples تستخدم أقواس دائرية (). tuples أسرع في الأداء وتستخدم ذاكرة أقل.
+What is a Python decorator?,A decorator is a function that modifies the behavior of another function without changing its source code. It wraps another function and extends its functionality. Decorators use the @decorator_name syntax above the function definition.
+كيف تتعامل مع الاستثناءات في Python؟,نستخدم try-except blocks للتعامل مع الأخطاء. نضع الكود المحتمل حدوث خطأ فيه في try، ونعالج الخطأ في except. يمكن إضافة else للتنفيذ عند عدم وجود أخطاء و finally للتنفيذ دائماً.
+What is list comprehension?,List comprehension is a concise way to create lists in Python using a single line of code. It consists of brackets containing an expression followed by a for clause. It's more readable and faster than traditional for loops for creating lists.
+ما هي الوظيفة lambda في Python؟,lambda هي وظيفة مجهولة صغيرة تُكتب في سطر واحد. تُستخدم للعمليات البسيطة التي لا تحتاج لتعريف function كامل. تُكتب بالصيغة: lambda arguments: expression.
+What is the difference between '==' and 'is'?,"== checks if two objects have the same value, while 'is' checks if they are the same object in memory. == compares data equality, 'is' compares identity. Use == for value comparison and 'is' for checking None or singleton objects."
+ما هو pip في Python؟,pip هو مدير الحزم الرسمي لـ Python يُستخدم لتثبيت وإدارة المكتبات الخارجية. يسمح بتثبيت حزم من Python Package Index بسهولة. الأمر الأساسي هو: pip install package_name.
+What are *args and **kwargs?,*args allows a function to accept any number of positional arguments as a tuple. **kwargs allows a function to accept any number of keyword arguments as a dictionary. They provide flexibility when you don't know how many arguments will be passed.
+كيف تقرأ ملف في Python؟,"نستخدم الدالة open() مع وضع القراءة 'r'. الطريقة الأفضل هي استخدام with open('file.txt', 'r') as f: لضمان إغلاق الملف تلقائياً. يمكن استخدام read() أو readline() أو readlines() لقراءة المحتوى."
+What is a virtual environment?,A virtual environment is an isolated Python environment that allows you to install packages independently for different projects. It prevents dependency conflicts between projects. Created using venv module or virtualenv package.
+ما هو الفرق بين append و extend؟,"append() تضيف عنصر واحد في نهاية القائمة حتى لو كان قائمة. extend() تضيف كل عناصر قائمة أخرى إلى القائمة الأصلية. append([1,2]) تضيف قائمة كعنصر واحد، extend([1,2]) تضيف 1 و 2 كعناصر منفصلة."
+What is the purpose of __init__ method?,__init__ is a constructor method that initializes a new instance of a class. It's automatically called when an object is created. It sets up initial values for object attributes and performs any setup needed.
+ما هي المكتبة pandas؟,pandas مكتبة قوية لتحليل ومعالجة البيانات في Python. توفر هياكل بيانات مثل DataFrame و Series لتنظيم البيانات. تُستخدم بكثرة في علم البيانات للتنظيف، التحليل، والتحويل.
+What is JavaScript?,"JavaScript is a high-level, interpreted programming language primarily used for web development. It enables interactive web pages and runs in browsers as well as servers (Node.js). It supports object-oriented, imperative, and functional programming styles."
+"What is the difference between var, let, and const?","var has function scope and can be redeclared, while let and const have block scope. let allows reassignment but const does not allow reassignment after initialization. const and let were introduced in ES6 to solve var's scoping issues."
+What is a closure in JavaScript?,"A closure is a function that has access to variables in its outer (enclosing) function's scope, even after the outer function has returned. It remembers the environment in which it was created. Closures are commonly used for data privacy and creating function factories."
+What is the difference between == and ===?,"== performs type coercion and checks for value equality, while === checks for both value and type equality. === is stricter and doesn't convert types. Using === is generally recommended to avoid unexpected type conversions."
+What is the DOM?,"The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page structure as a tree of objects that can be manipulated with JavaScript. The DOM allows dynamic changes to content, structure, and styling."
+What is an arrow function?,An arrow function is a concise syntax for writing functions introduced in ES6. It uses => syntax and doesn't have its own 'this' binding. Arrow functions are ideal for short callbacks and maintain the context of the surrounding code.
+What is event bubbling?,"Event bubbling is when an event starts from the target element and propagates up through its ancestors in the DOM tree. The event triggers handlers on the target first, then moves up to parent elements. It can be stopped using stopPropagation()."
+What is a Promise?,"A Promise is an object representing the eventual completion or failure of an asynchronous operation. It has three states: pending, fulfilled, or rejected. Promises help avoid callback hell and make asynchronous code more manageable."
+What is async/await?,"Async/await is syntactic sugar built on top of Promises for writing asynchronous code. The async keyword defines an asynchronous function, and await pauses execution until the Promise resolves. It makes asynchronous code look and behave like synchronous code."
+What is the spread operator?,"The spread operator (...) expands an iterable (array, string, object) into individual elements. It's used for copying arrays/objects, merging them, or passing array elements as function arguments. Introduced in ES6, it provides cleaner syntax than older methods."
+ما هو التعلم الآلي؟,التعلم الآلي هو فرع من الذكاء الاصطناعي يمكّن الأنظمة من التعلم والتحسين من التجربة دون برمجة صريحة. يستخدم الخوارزميات لتحليل البيانات، التعلم منها، واتخاذ القرارات. يُطبق في التعرف على الصور، معالجة اللغة، والتنبؤات.
+ما الفرق بين التعلم الخاضع للإشراف وغير الخاضع للإشراف؟,التعلم الخاضع للإشراف يستخدم بيانات مُصنفة مسبقاً لتدريب النموذج على التنبؤ. التعلم غير الخاضع للإشراف يعمل مع بيانات غير مُصنفة لاكتشاف الأنماط والتجميع. الأول يحتاج معلم، والثاني يكتشف البنية بنفسه.
+ما هي الشبكة العصبية؟,الشبكة العصبية هي نموذج حاسوبي مستوحى من الدماغ البشري يتكون من طبقات من العُقد المترابطة. كل عقدة تعالج المعلومات وترسلها للطبقة التالية. تُستخدم في التعلم العميق لحل مشاكل معقدة كالتعرف على الصور والصوت.
+ما هو overfitting؟,Overfitting يحدث عندما يتعلم النموذج التفاصيل والضوضاء في بيانات التدريب بشكل مفرط. يؤدي لأداء ممتاز على بيانات التدريب لكن ضعيف على بيانات جديدة. يُعالج بتقليل التعقيد، زيادة البيانات، أو استخدام regularization.
+ما هو الفرق بين classification و regression؟,التصنيف classification يتنبأ بفئات منفصلة (مثل: قطة أو كلب). الانحدار regression يتنبأ بقيم مستمرة (مثل: السعر أو الحرارة). كلاهما من التعلم الخاضع للإشراف لكن نوع الإخراج مختلف.
+ما هي مكتبة scikit-learn؟,scikit-learn مكتبة Python شهيرة للتعلم الآلي توفر خوارزميات جاهزة. تتضمن أدوات للتصنيف، الانحدار، التجميع، ومعالجة البيانات. سهلة الاستخدام وموثقة جيداً، مناسبة للمبتدئين والمحترفين.
+ما هو training set و test set؟,Training set هي البيانات المستخدمة لتدريب النموذج وتعليمه الأنماط. Test set بيانات منفصلة تُستخدم لتقييم أداء النموذج على بيانات لم يراها من قبل. الفصل بينهما ضروري لتقييم موضوعي.
+ما هو feature engineering؟,Feature engineering هو عملية إنشاء، تحويل، أو اختيار المتغيرات (features) من البيانات الخام لتحسين أداء النموذج. يشمل التطبيع، إنشاء متغيرات جديدة، ومعالجة القيم المفقودة. من أهم خطوات بناء نماذج فعالة.
+ما هي خوارزمية decision tree؟,Decision tree خوارزمية تعلم آلي تبني نموذج على شكل شجرة من القرارات. كل عقدة تمثل سؤال عن feature، والفروع تمثل الإجابات الممكنة. سهلة الفهم والتفسير، تُستخدم للتصنيف والانحدار.
+ما هو الفرق بين precision و recall؟,Precision (الدقة) تقيس نسبة التنبؤات الإيجابية الصحيحة من كل التنبؤات الإيجابية. Recall (الاستدعاء) يقيس نسبة التنبؤات الإيجابية الصحيحة من كل الحالات الإيجابية الفعلية. يُستخدمان معاً لتقييم نماذج التصنيف.
+What is HTML?,HTML (HyperText Markup Language) is the standard markup language for creating web pages. It defines the structure and content of web pages using elements and tags. HTML works with CSS for styling and JavaScript for interactivity.
+What is CSS?,"CSS (Cascading Style Sheets) is a language used to describe the presentation and styling of HTML documents. It controls layout, colors, fonts, spacing, and responsive design. CSS separates content from design, making websites more maintainable."
+What is responsive web design?,"Responsive web design is an approach that makes web pages render well on different devices and screen sizes. It uses flexible grids, flexible images, and CSS media queries. The layout adapts automatically to provide optimal viewing experience."
+What is a REST API?,"REST (Representational State Transfer) API is an architectural style for building web services. It uses HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources. REST APIs are stateless, scalable, and widely used for client-server communication."
+What is the box model in CSS?,"The box model describes how elements are rendered with content, padding, border, and margin. Content is the innermost area, padding surrounds content, border wraps padding, and margin is the outermost space. Understanding it is crucial for proper layout control."
+What is a framework?,"A framework is a pre-built structure that provides a foundation for developing applications. It includes reusable code, libraries, and tools that follow specific patterns. Frameworks like React, Angular, and Vue.js speed up development and enforce best practices."
+What is AJAX?,AJAX (Asynchronous JavaScript and XML) is a technique for creating dynamic web pages without reloading. It uses XMLHttpRequest or Fetch API to communicate with servers asynchronously. AJAX enables smoother user experiences by updating parts of a page independently.
+What is semantic HTML?,"Semantic HTML uses tags that clearly describe their meaning and content purpose. Examples include header, nav, article, section, and footer instead of just div. It improves accessibility, SEO, and code readability."
+What is a CDN?,"A Content Delivery Network (CDN) is a distributed network of servers that delivers content to users from the nearest location. It reduces latency, improves load times, and handles traffic spikes. CDNs cache static assets like images, CSS, and JavaScript files."
+What is CORS?,"CORS (Cross-Origin Resource Sharing) is a security mechanism that controls how web pages can request resources from different domains. Browsers enforce same-origin policy by default, and CORS headers allow specific cross-origin requests. It prevents unauthorized access while enabling legitimate cross-domain communication."
+ما هي قاعدة البيانات؟,قاعدة البيانات هي مجموعة منظمة من البيانات المخزنة والمدارة إلكترونياً. تسمح بالوصول السريع، الإدارة الفعالة، والتحديث المنتظم للبيانات. تُستخدم في كل التطبيقات من المواقع الإلكترونية إلى الأنظمة المصرفية.
+ما الفرق بين SQL و NoSQL؟,SQL قواعد بيانات علائقية تستخدم جداول ومخططات ثابتة مع لغة SQL للاستعلام. NoSQL قواعد بيانات غير علائقية مرنة تدعم أنواع مختلفة كالمستندات والأزواج key-value. NoSQL أفضل للبيانات الضخمة غير المهيكلة، SQL للبيانات المهيكلة والمعقدة.
+ما هو primary key؟,Primary key (المفتاح الأساسي) هو عمود أو مجموعة أعمدة تحدد كل صف في الجدول بشكل فريد. لا يمكن أن يحتوي على قيم NULL أو مكررة. يُستخدم لضمان تفرد السجلات وربط الجداول.
+ما هي عملية JOIN في SQL؟,"JOIN تُستخدم لدمج صفوف من جدولين أو أكثر بناءً على عمود مشترك بينهما. أنواعها: INNER JOIN, LEFT JOIN, RIGHT JOIN, و FULL JOIN. تسمح باسترجاع بيانات مرتبطة من جداول متعددة في استعلام واحد."
+ما هو index في قواعد البيانات؟,Index (الفهرس) هو هيكل بيانات يحسّن سرعة عمليات البحث والاسترجاع في الجدول. يعمل مثل فهرس الكتاب للوصول السريع للبيانات. يسرّع الاستعلامات لكن يبطئ عمليات الإدخال والتحديث قليلاً.
+ما هي ACID properties؟,ACID خصائص تضمن موثوقية المعاملات في قواعد البيانات: Atomicity (الذرية)، Consistency (الاتساق)، Isolation (العزل)، Durability (الدوام). تضمن أن المعاملات تُنفذ بشكل كامل أو لا تُنفذ أبداً، وتبقى البيانات صحيحة حتى عند الأعطال.
+ما هو MongoDB؟,MongoDB قاعدة بيانات NoSQL موجهة للمستندات تخزن البيانات بصيغة JSON-like. مرنة ولا تتطلب مخطط ثابت، مناسبة للبيانات غير المهيكلة. تدعم التوسع الأفقي وتُستخدم في التطبيقات الحديثة والبيانات الضخمة.
+ما هي normalization؟,"Normalization (التطبيع) عملية تنظيم قاعدة البيانات لتقليل التكرار وتحسين سلامة البيانات. تتضمن تقسيم الجداول الكبيرة لجداول أصغر مرتبطة. تتم عبر مراحل (1NF, 2NF, 3NF) كل منها يحل مشاكل معينة."
+What is Git?,"Git is a distributed version control system that tracks changes in source code during development. It allows multiple developers to work together on projects without conflicts. Git maintains complete history and enables branching, merging, and collaboration."
+What is the difference between git pull and git fetch?,git fetch downloads changes from remote repository but doesn't merge them into your current branch. git pull does both fetch and merge in one command. fetch is safer as it lets you review changes before integrating them.
+What is a branch in Git?,A branch is an independent line of development in Git that allows you to work on features without affecting the main codebase. The main branch is typically called main or master. Branches can be merged back after completing work.
+What is Docker?,"Docker is a platform for developing, shipping, and running applications in containers. Containers package applications with all dependencies into standardized units. Docker ensures consistency across different environments and simplifies deployment."
+What is CI/CD?,"CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. CI automatically builds and tests code changes, while CD automates deployment to production. These practices enable faster, more reliable software releases with reduced manual effort."
+What is a merge conflict?,A merge conflict occurs when Git cannot automatically reconcile differences between two commits. This happens when the same lines of code are modified differently in separate branches. Developers must manually resolve conflicts by choosing which changes to keep.
+What is DevOps?,"DevOps is a culture and set of practices that combines software development (Dev) and IT operations (Ops). It emphasizes collaboration, automation, and continuous improvement to deliver software faster and more reliably. DevOps uses tools for CI/CD, monitoring, and infrastructure as code."
