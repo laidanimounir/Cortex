@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 
 class QAEngine:
     
-    def __init__(self, min_confidence: float = 0.6, model_name: str = "paraphrase-multilingual-MiniLM-L12-v2"):
+    def __init__(self, min_confidence: float = 0.75, model_name: str = "paraphrase-multilingual-MiniLM-L12-v2"):
         self.model = SentenceTransformer(model_name)
         self.questions: list[str] = []
         self.answers: list[str] = []
@@ -123,7 +123,7 @@ def build_qa_engine() -> QAEngine:
     base_dir = Path(__file__).resolve().parent.parent
     csv_path = base_dir / "data" / "knowledge_base.csv"
     
-    engine = QAEngine(min_confidence=0.6)
+    engine = QAEngine(min_confidence=0.75)
     engine.load_knowledge_base(csv_path)
     return engine
 

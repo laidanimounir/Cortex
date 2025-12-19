@@ -13,7 +13,7 @@ class QAEngineRag:
     
     def __init__(
         self,
-        min_confidence: float = 0.6,
+        min_confidence: float = 0.75,
         model_name: str = "paraphrase-multilingual-MiniLM-L12-v2",
         persist_directory: str = "./chroma_db"
     ):
@@ -262,7 +262,7 @@ def build_rag(csv_path: Optional[Path] = None, reload: bool = False) -> QAEngine
     if csv_path is None:
         csv_path = base_dir / "data" / "knowledge_base.csv"
     
-    engine = QAEngineRag(min_confidence=0.6)
+    engine = QAEngineRag(min_confidence=0.75)
     
  
     if engine.collection.count() == 0 or reload:

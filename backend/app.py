@@ -140,6 +140,16 @@ def ask_question():
         context = conversation_manager.get_conversation_context(session_id)
         
         result = engine.find_answer(question, context=context)
+
+
+
+        print("\n===== DEBUG RESULT =====")
+        print("QUESTION:", question)
+        print("RESULT:", result)
+        print("===== END DEBUG =====\n")
+
+
+
         best_conf = float(result["confidence"])
         logger.info(f"[{session_id[:8]}] Confidence: {best_conf:.2f}")
         
